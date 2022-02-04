@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 200vh;
+    width: auto;
+    margin: 0;
+    padding: 0;    
+}
+
+.bg {
+    background: url(../images/1.jpeg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;    
+    background-color: #383838;
+}
+
+.font-color-1 {
+    color: #D8CC00;
+}
+
+.font-color-2 {
+    color: #383838;
+}
+
+.font-color-3 {
+    color: #FFFFFF;
+}
+
+/*poner midia*/
+
+.nav-link-a {
+    margin: 0vw 2.5vw;
+    font-size: 1.7vw;
+    font-weight: 900;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+.form-title-div{
+    height: 6vw;    
+    border-bottom: #FFFFFF solid  2px;        
+}
+
+.form-title-left{
+    background-color: #383838;
+    border-right: #FFFFFF solid 2px;
+}
+
+.form-title-right{
+    background-color: #D8CC00;
+ 
+}
+
+
+
+.title-font{
+    margin: 0vw 2.5vw;
+    font-size: 1.7vw;
+    font-weight: 900;
+}
+
+a.nav-link-a:hover{
+color: #D8CC00;
+}
+
+.nav-bar{
+    margin: 5vw 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bar-lu{   
+    width: auto;    
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.nav-bar-lu li{
+    display: inline;
+}
+
+.bg-section{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-form{    
+    background-color: #d8cd00c9;
+    padding: 0;       
+}
+
+.title-align{
+    margin: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.bg-footer{
+    width: 100%;
+    height: 50%;
+    background-color: #383838;
+}
+.form-font-size{
+    font-size: 1.5vw;
+}
+
+.form-margin{
+    margin: 1vw 1vw;
+}
+
+.form-input{
+    background-color: #D8CC00;
+    opacity: 1;
+}
+
+::placeholder {
+    color: #FFFFFF;
+  }
+
+
+nav lu{
+
+}

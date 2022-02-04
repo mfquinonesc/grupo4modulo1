@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;      
+    height: auto;
+}
+header,section,footer,h2{
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+
+.bg{
+    background-image: url("../images/1.jpeg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-color-1 {
+    color: #D8CC00;
+}
+
+.font-color-2 {
+    color: #383838;
+}
+
+.font-color-3 {
+    color: #FFFFFF;
+}
+
+.nav-bar-ul{   
+    width: auto;    
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.nav-bar-ul li{
+    display: inline;    
+}
+
+.nav-bar{
+    padding: 0;
+    border: 0;    
+    margin: 5vw 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-a {  
+    margin: 0vw 2.5vw;     
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.nav-a:hover{
+    color: #D8CC00;
+}
+
+.section-form{
+    height: 110vh;
+    /* background-color: #00d861bd; */
+}
+
+.bg-t{
+    background-color: #d8cd0057;
+}
+
+
+.bg-tg{
+    background-color:#383838c2;
+}
+
+label{
+    color: #FFFFFF;
+}
+
+.form-lmt{
+    margin: 1vw 2vw;
+    padding: 0;
+    border: 0;
+}
+
+.title-font{   
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+.div-header{
+    padding: 2vw 0;
+    margin:  0;
+     border-bottom: #FFFFFF solid  2px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.input-color{
+    background-color: #D8CC00;
+    color: white;    
+  }
+
+  .btn-lmt{
+      background-color: #383838;
+      color: #FFFFFF;
+  }
+  button.btn-lmt:hover{
+      background-color:#FFFFFF;
+      color: #383838;
+      border-color:#D8CC00;
+  }
+
+  .footer-bg{
+      background-color: #383838;
+      color: #FFFFFF;
+      height: 35vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+.footer-bg p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
