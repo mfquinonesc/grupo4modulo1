@@ -128,3 +128,46 @@ label{
     padding: 0;
     margin: 0;
 }
+
+.contact-bg{
+    background-color: #d8cd00ab;
+    height: 50vh;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-bg h2{
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contact-bg p{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: row;
+}
+.form-ctrl{
+   margin: 0vw 0.5vw;
+}
+
+.input-contact{
+    width: 25vw;
+    height: 9vh;   
+}
+
+.btn-contact{
+    width: 12vw;
+    height: 9vh;  
+    font-size: 2vw;
+    font-weight: 600; 
+}
