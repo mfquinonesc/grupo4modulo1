@@ -367,6 +367,7 @@ a.a-form:hover{
     background-image: url("../images/3.jpeg");
     background-position: center;
     height: 100vh;
+    width: auto;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
