@@ -1,131 +1,202 @@
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    height: 200vh;
-    width: auto;
-    margin: 0;
-    padding: 0;    
+main{
+    background-image: url(./imagenes/bacgraund.jpeg);
+    background-size: cover;
 }
 
-.bg {
-    background: url(../images/1.jpeg);
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: 100%;    
-    background-color: #383838;
+
+.vista{
+
+    background-image: url(./imagenes/bacgraund.jpeg);
+    background-size: cover;
+    display: flex;
+    
+    
+
 }
 
-.font-color-1 {
-    color: #D8CC00;
-}
-
-.font-color-2 {
-    color: #383838;
-}
-
-.font-color-3 {
-    color: #FFFFFF;
-}
-
-/*poner midia*/
-
-.nav-link-a {
-    margin: 0vw 2.5vw;
-    font-size: 1.7vw;
-    font-weight: 900;
-    text-decoration: none;
-    color: #FFFFFF;
+.titulo{
+    display: inline-flex;
+     left: 300px;
+     top: 10px;
+    
+    height: 50px;
+    width: 1000px;
+    position: relative;
+    
+    font-family: 'Changa', sans-serif;
+    font-size: 40px;
+    color: #e2d702;
+    
 }
 
 
 
-.form-title-div{
-    height: 6vw;    
-    border-bottom: #FFFFFF solid  2px;        
+    
+.contenedor{
+    height: 500px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 200px;
+     top: 140px;
+   
 }
-
-.form-title-left{
-    background-color: #383838;
-    border-right: #FFFFFF solid 2px;
-}
-
-.form-title-right{
-    background-color: #D8CC00;
  
-}
 
-
-
-.title-font{
-    margin: 0vw 2.5vw;
-    font-size: 1.7vw;
-    font-weight: 900;
-}
-
-a.nav-link-a:hover{
-color: #D8CC00;
-}
-
-.nav-bar{
-    margin: 5vw 0;
-    width: 100vw;
+.texto{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    height: 50px;
+    width: 300px;
+    background-color: #e2d702 ;
+     margin: 5px 0px 18px  0px;
+     justify-content: center;
+     border-radius: 5% ;
+
+     
+    
 }
 
-.nav-bar-lu{   
-    width: auto;    
+.parrafo{
+
+    font-family: 'Rowdies', cursive;
+    font-size: larger;
+    
+
+}
+
+
+
+
+.imagen{
     display: flex;
-    flex-direction: row;   
-    align-items: center;
+    height: 400px;
+    width: 300px;
+    right: 405px;
+    top: 120px;
+    position: relative;
+    
+    
 }
 
-.nav-bar-lu li{
-    display: inline;
+.contactanos{
+    display:  flex; 
+    position: relative;
+    background-color: #e2d702ad;
+    height: 320px;
+    width: auto;
+    
+    
+    
+
 }
 
-.bg-section{
-    width: 100%;
-    height: 100%;
-}
-
-.bg-form{    
-    background-color: #d8cd00c9;
-    padding: 0;       
-}
-
-.title-align{
-    margin: 0;
+h3{
     display: flex;
-    flex-direction: row; 
     justify-content: center;
-    align-items: center; 
+    position: relative;
+    height: 50px;
+    width: 270px;
+    left: 550px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    
 }
 
-.bg-footer{
-    width: 100%;
-    height: 50%;
-    background-color: #383838;
-}
-.form-font-size{
-    font-size: 1.5vw;
-}
+h4{
 
-.form-margin{
-    margin: 1vw 1vw;
-}
+    display: flex;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left:  310px;
+    font-family: 'PT Sans Caption', sans-serif;
 
-.form-input{
-    background-color: #D8CC00;
-    opacity: 1;
+    font-size: 30px;
+    justify-content: center;
+    color: aliceblue;
+    
 }
 
-::placeholder {
-    color: #FFFFFF;
-  }
 
+.contenedorDivs{
+     width: 800px;
+    height: 100px;
+    display: flex ;
+    position: relative;
+    
+     top: 170px;
+     right: 10px;
+     align-items: center;
+}
 
-nav lu{
+.ingrese{
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 75px;
+    background-color: #e2d702;
+    border: white solid;
+    display: inline;
+    position: relative;
+    margin: 0px 20px;
+    color: aliceblue;
+    font-family: 'Alfa Slab One', cursive;
+
+    
+}
+
+.ingres{
+    width: 150px;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 9px;
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Alfa Slab One', cursive;
 
 }
+
+footer{
+background-color: rgba(41, 41, 41, 0.918);
+
+
+
+}
+
+.divFoter{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 200px;
+    position: relative;
+    
+}
+
+.logoFoter{
+
+    width: 400px;
+    height: 100px;
+  position: relative;
+  left:500px;
+  top: 20px;
+
+}
+
+.parrafoFoter{
+      
+    position:relative;
+    top: 120px;
+    width: 1000px;
+    height: 50px;
+    font-family: 'Genos', sans-serif;
+    color: aliceblue;
+     
+}
+
+
+
+
